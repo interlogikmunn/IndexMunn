@@ -2594,3 +2594,11 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.info-item {
+    flex-wrap: wrap; /* permite que los elementos bajen si no hay espacio */
+}
+
+.icon-box {
+    flex-shrink: 0; /* evita que el ícono se deforme */
+}
